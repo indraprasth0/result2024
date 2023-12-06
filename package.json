@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Result Sheet of students of all types of schools, colleges and classes.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon scr/index.js"
   },
   "author": "Mr. Pankaj Khairnar",
   "license": "ISC"
